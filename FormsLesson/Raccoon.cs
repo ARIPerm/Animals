@@ -16,7 +16,7 @@ namespace FormsLesson
         public string place;
         public int time;
 
-        public Raccoon (string name, int age, string owner,int fluff)
+        public Raccoon(string name, int age, string owner, int fluff)
             : base(name, age, owner)
         {
             this.fluff = fluff;

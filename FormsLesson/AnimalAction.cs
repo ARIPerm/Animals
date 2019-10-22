@@ -13,22 +13,37 @@ namespace FormsLesson
             if (animal is Cat)
             {
                 Cat cat = (Cat)animal;
-                cat.food = "Milk";
-                GetFeed(cat.food);
+                switch(food)
+                {
+                    case "Milk":
+                        cat.Satiety += 10;
+                        cat.Pep -= 7;
+                        cat.Mood += 2;
+                        cat.Intelligence += 1;
+                        break;
+                    case "Bread":
+                        cat.Satiety += 3;
+                        cat.Pep -= 17;
+                        cat.Mood -= 4;
+                        cat.Intelligence += 1;
+                        break;
+                    case "Bamboo":
+                        cat.Satiety -= 4;
+                        cat.Pep -= 20;
+                        cat.Mood -= 14;
+                        cat.Intelligence += 1;
+                        break;
+                }
                 return true;
             }
             else if (animal is Dog)
             {
                 Dog dog = (Dog)animal;
-                dog.food = "Bone";
-                GetFeed(dog.food);
                 return true;
             }
             else if (animal is Raccoon)
             {
                 Raccoon raccoon = (Raccoon)animal;
-                raccoon.food = "Bamboo";
-                GetFeed(raccoon.food);
                 return true;
             }
             else
@@ -42,25 +57,16 @@ namespace FormsLesson
             if (animal is Cat)
             {
                 Cat cat = (Cat)animal;
-                cat.command = "Sit";
-                cat.star = 3;
-                GetTraining(cat.command, cat.star);
                 return true;
             }
             else if (animal is Dog)
             {
                 Dog dog = (Dog)animal;
-                dog.command = "Paw";
-                dog.star = 3;
-                GetTraining(dog.command, dog.star);
                 return true;
             }
             else if (animal is Raccoon)
             {
                 Raccoon raccoon = (Raccoon)animal;
-                raccoon.command = "Rinse";
-                raccoon.star = 10;
-                GetTraining(raccoon.command, raccoon.star);
                 return true;
             }
             else
@@ -74,28 +80,38 @@ namespace FormsLesson
             if (animal is Cat)
             {
                 Cat cat = (Cat)animal;
-                cat.speed = 10;
-                cat.place = "House";
-                cat.time = 24;
-                GetWalk(cat.speed, cat.place, cat.time);
                 return true;
             }
             else if (animal is Dog)
             {
                 Dog dog = (Dog)animal;
-                dog.speed = 30;
-                dog.place = "Street";
-                dog.time = 12;
-                GetWalk(dog.speed, dog.place, dog.time);
                 return true;
             }
             else if (animal is Raccoon)
             {
                 Raccoon raccoon= (Raccoon)animal;
-                raccoon.speed = 99;
-                raccoon.place = "Wood";
-                raccoon.time = 5;
-                GetWalk(raccoon.speed, raccoon.place, raccoon.time);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool Sleep(Animal animal, int hours)
+        {
+            if (animal is Cat)
+            {
+                Cat cat = (Cat)animal;
+                return true;
+            }
+            else if (animal is Dog)
+            {
+                Dog dog = (Dog)animal;
+                return true;
+            }
+            else if (animal is Raccoon)
+            {
+                Raccoon raccoon = (Raccoon)animal;
                 return true;
             }
             else

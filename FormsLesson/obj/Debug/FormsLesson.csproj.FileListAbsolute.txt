@@ -1,0 +1,11 @@
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\bin\Debug\FormsLesson.exe.config
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\bin\Debug\FormsLesson.exe
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\bin\Debug\FormsLesson.pdb
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.csprojResolveAssemblyReference.cache
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.Form1.resources
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.Properties.Resources.resources
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.csproj.GenerateResource.Cache
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.csproj.CoreCompileInputs.cache
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.exe
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.pdb
+C:\Users\Фвьшт\Desktop\C#\Animals\FormsLesson\obj\Debug\FormsLesson.Form2.resources

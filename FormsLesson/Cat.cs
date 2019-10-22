@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FormsLesson
 {
-    class Cat:Animal
+    class Cat : Animal
     {
         private int harmfulness;
         public string food;
@@ -16,8 +16,8 @@ namespace FormsLesson
         public string place;
         public int time;
 
-        public Cat (string name, int age, string owner, int harmfulness)
-            : base (name, age, owner)
+        public Cat(string name, int age, string owner, int harmfulness)
+            : base(name, age, owner)
         {
             this.harmfulness = harmfulness;
         }
