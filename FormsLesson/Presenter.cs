@@ -25,7 +25,6 @@ namespace FormsLesson
         {
             if(animalAction.Feed(animal, food))
             {
-                view.OnSuccessFeed(animal, food);
             }
             else
             {

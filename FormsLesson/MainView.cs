@@ -10,11 +10,11 @@ namespace FormsLesson
     {
         void OnSuccessFeed(Animal animal, string food);
 
-        void OnSuccessWalk(string animal, int speed, string place, int time);
+        void OnSuccessWalk(Animal animal, int speed, string place, int time);
 
-        void OnSuccessTraining(string animal, string command, int star);
+        void OnSuccessTraining(Animal animal, string command, int star);
 
-        void OnSuccessSleep(string animal, int hours);
+        void OnSuccessSleep(Animal animal, int hours);
 
         void ErrorMessageNull();
 
