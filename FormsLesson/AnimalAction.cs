@@ -128,19 +128,20 @@ namespace FormsLesson
 
         public bool Walk(Animal animal, int speed, string place, int time)
         {
+            int temp = time / speed;
             if (animal is Cat)
             {
                 Cat cat = (Cat)animal;
                 switch (place)
                 {
                     case "Home":
-                        cat.NeedsPet(-1, -2, 3, 2);
+                        cat.NeedsPet(-1 * temp, -2 * temp, 3 * temp, 2 * temp);
                         break;
                     case "Park":
-                        cat.NeedsPet(-3, -4, 2, 1);
+                        cat.NeedsPet(-3 * temp, -4 * temp, 2 * temp, 1 * temp);
                         break;
                     case "Forest":
-                        cat.NeedsPet(-5, -3, 5, 4);
+                        cat.NeedsPet(-5 * temp, -3 * temp, 5 * temp, 4 * temp);
                         break;
                 }
                 return true;
@@ -151,13 +152,13 @@ namespace FormsLesson
                 switch (place)
                 {
                     case "Home":
-                        dog.NeedsPet(-1, -2, 3, 2);
+                        dog.NeedsPet(-1 * temp, -2 * temp, 3 * temp, 2 * temp);
                         break;
                     case "Park":
-                        dog.NeedsPet(-3, -4, 2, 1);
+                        dog.NeedsPet(-3 * temp, -4 * temp, 2 * temp, 1 * temp);
                         break;
                     case "Forest":
-                        dog.NeedsPet(-5, -3, 5, 4);
+                        dog.NeedsPet(-5 * temp, -3 * temp, 5 * temp, 4 * temp);
                         break;
                 }
                 return true;
@@ -168,13 +169,13 @@ namespace FormsLesson
                 switch (place)
                 {
                     case "Home":
-                        raccoon.NeedsPet(-1, -2, 3, 2);
+                        raccoon.NeedsPet(-1 * temp, -2 * temp, 3 * temp, 2 * temp);
                         break;
                     case "Park":
-                        raccoon.NeedsPet(-3, -4, 2, 1);
+                        raccoon.NeedsPet(-3 * temp, -4 * temp, 2 * temp, 1 * temp);
                         break;
                     case "Forest":
-                        raccoon.NeedsPet(-5, -3, 5, 4);
+                        raccoon.NeedsPet(-5 * temp, -3 * temp, 5 * temp, 4 * temp);
                         break;
                 }
                 return true;

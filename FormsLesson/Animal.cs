@@ -15,7 +15,8 @@ namespace FormsLesson
         private int satiety;
         private int mood;
         private int intelligence;
-        public static int Id = 0;
+        public static int Count = 0;
+        public int Id;
 
         public int Pep { get { return pep; } set { pep = value; } }
         public int Satiety { get { return satiety; } set { satiety = value; } }
@@ -37,7 +38,7 @@ namespace FormsLesson
             this.name = name;
             this.age = age;
             this.owner = owner;
-            Id++;
+            Id = Count++;
         }
 
         public void NeedsPet()

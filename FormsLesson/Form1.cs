@@ -274,19 +274,19 @@ namespace FormsLesson
             if (NameAnimal[0] == 'C')
             {
                 AnimalBox.Text = "Cat";
-                Who = "Harmfulness: ";
+                Who = "Harmfulness: " + animal.GetUniq();
             }
             else if (NameAnimal[0] == 'D')
             {
                 AnimalBox.Text = "Dog";
-                Who = "Danger: ";
+                Who = "Danger: " + animal.GetUniq();
             }
             else if (NameAnimal[0] == 'R')
             {
                 AnimalBox.Text = "Raccoon";
-                Who = "Fluff: ";
+                Who = "Fluff: " + animal.GetUniq();
             }
-            uniqText.Text = Convert.ToString(Who)+ Convert.ToString(animal.GetUniq());
+            uniqText.Text = Convert.ToString(Who);
             IdBox.Text = Convert.ToString(animal.GetId());
         }
     }
